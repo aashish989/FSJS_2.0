@@ -1,0 +1,118 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* For Background Image */
+body{
+    background: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+/* Navbar section */
+.navbar{
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    height: 80px; 
+}
+/* For straight line*/
+.line{
+    width: 6px;
+    height: 55px;
+    background: white;
+    margin: 0px 40px;
+    border-radius: 2px;
+    
+}
+/* List item in nnavbar */
+.list{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 60px;
+     list-style-type: none;
+     font-family: "Poppins";
+}
+/* Hover effect */
+li:hover{
+    
+    text-decoration: underline 3px rgb(243, 239, 233);
+    cursor: pointer;
+}
+/* Logo image */
+.navbar img{
+    width: 100px; 
+    margin-left: 8px;
+}
+/* For targeting Button in navbar */
+.button-small{
+    margin-left: 500px;
+    color: white;
+    background: #b51fb5;
+    padding: 7px 15px;
+    border-radius: 4px;
+}
+/* Hover effect */
+.button-small:hover{
+    background: rgb(127, 4, 127);
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Navabar section end here */
+
+/* 
+<!-- Hero Section --> */
+/* Section 2 conatiner */
+.hero{
+    display: grid;
+    justify-content: center;
+    margin-top: 90px;
+}
+/* Heading in section 2 */
+.hero-heading{
+    font-size: 74px;
+    width:75%;
+    justify-self: center;
+    text-align: center;
+    color: #efe8e8;
+    font-family: "Montserrat";
+    
+}
+/* For paragraph in section 2 */
+.hero-description{
+    width: 100%;
+    text-align: center;
+    color: #efe8e8;
+    font-size: 30px;
+    font-family: "Poppins";
+    margin-top: 22px;
+}
+/* button in section 2 */
+.button-large{
+    margin-top: 30px;
+    width: fit-content;
+    justify-self: center;
+    padding: 10px 20px;
+    background: #b51fb5;
+    color: #efe8e8;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+/* Hover effect */
+.button-large:hover{
+    background: rgb(127, 4, 127);
+    border-style: inset;
+    
+    cursor: pointer;
+}

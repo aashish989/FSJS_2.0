@@ -1,0 +1,141 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+
+*{
+    margin: 5px;
+    padding: 0;
+
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+gap: 50px;
+    list-style: none;
+    font-family: "Orbitron";
+    
+}
+.button-group{
+    display: flex;
+}
+svg{
+    width: 27px;
+    width:fit-content;
+    
+}
+.nav-button{
+    padding: 7px 34px;
+    background-color: #f9f9f9;
+    color: #808080;
+    border: 4px solid black;
+    border-radius: 7px;
+}
+/* 
+ncascabcja */
+
+
+.hero-container{
+    display: flex;
+    margin-top: 40px;
+}
+
+
+span.square{
+    
+    position: absolute;
+    margin-top: 352px;
+    margin-left: 220px;
+    z-index: -1;
+}
+span.star{
+    position: absolute;
+    margin-left: 20px;
+   
+}
+span.globe{
+    position: absolute;
+    margin-left: 650px;
+    margin-bottom: 80px;
+    margin-top: -60px;
+   
+}
+
+.hero-container >span:nth-child(2){
+margin-left: 1100px;
+
+}
+.hero-container >span:nth-child(3){
+
+ margin-top: 650px; 
+ margin-left: 670px;
+ 
+    }
+    .hero-container >span:nth-child(3) img{
+        width: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-container-right{
+  display: grid;
+  grid-template-rows: 150px 160px 200px ;
+ 
+    text-align: center;
+    margin-top: 150px;
+}
+.hero-heading{
+    font-family: "Orbitron";
+    font-size: 45px;
+    
+    
+}
+.hero-description{
+    /* margin-top: 75px; */
+    color: #808080;
+    
+    width: 85%;
+    justify-self: center;
+    text-align: center;
+    font-size: 18px;
+    /* margin-bottom: 50px; */
+    
+}
+
+.button-email{
+    padding: 6px 35px;
+    background: #ffffff;
+border: none;
+    border: 3px solid black;
+    color: black;
+    font-family: "Orbitron";
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 6px;
+    
+}
+.button-join{
+    padding: 6px 35px;
+    background: #0b0b0b;
+border: none;
+    border: 3px solid black;
+    color: rgb(252, 248, 248);
+    font-family: "Orbitron";
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 6px;
+}
